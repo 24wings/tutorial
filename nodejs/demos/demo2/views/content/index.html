@@ -1,0 +1,15 @@
+<% include ../header.html %>
+
+    <!--导航-->
+    <% include ../navbar.html %>
+        <% if(!username){  %>
+            <form action="/" method="POST">
+                <input type="text" name="username" placeholder="用户名" class="form-control">
+                <input type="password" class="form-control" name="password">
+                <button class="btn btn-primary">登录</button>
+            </form>
+            <% } %>
+
+
+
+                <% include ../footer.html %>

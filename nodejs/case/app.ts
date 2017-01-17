@@ -1,6 +1,7 @@
 import * as express from 'express';
 import * as bodyParser from 'body-parser';
 import * as ejs from 'ejs';
+import  router from './app.routes';
 var app =express();
 
 
@@ -14,21 +15,15 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.set('views',__dirname+'/views')
 
 //  视图的渲染引擎
-app.engine('.html',ejs.renderFile);
 app.set('view engine','html');
 
-
+// 用ejs的渲染方式去渲染html文件
+app.engine('.html',ejs.renderFile);
 
 
 app.use(express.static(__dirname+'/public'));
 // 对于任何请求渲染index页面
-app.all('/',(req,res,next)=>{
-    //渲染并发送渲染后的页面
-
-res.render('content/index.html',{username:req.body.username,
-citys:["北京","上海","杭州","天津"]    
-});
-});
+app.use('/',router);
 
 
 

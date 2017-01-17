@@ -8,7 +8,8 @@
     },
     "scripts": {
         "demo1": "ts-node demos/demo1/app",
-        "demo2": "ts-node demos/demo2/app"
+        "demo2": "ts-node demos/demo2/app",
+        "case": "ts-node case/app.ts"
     },
     "author": "",
     "license": "ISC",
