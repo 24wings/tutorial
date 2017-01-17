@@ -32,3 +32,25 @@ ul {
 .dropdown-menu a:hover {
     background: gray !important;
 }
+
+.carousel-indicators li {
+    background: #9dc819 none repeat scroll 0 0;
+}
+
+.carousel-indicators li.active {
+    background: #390b1f none repeat scroll 0 0;
+}
+
+.location {
+    display: block;
+    margin: 20px 0 20px 20px;
+}
+
+.location a {
+    color: #249136;
+}
+
+.product-title {
+    text-align: center;
+    color: #23527c;
+}

@@ -1,51 +1,76 @@
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">
-            <img src="//www.pantrysbest.com/assets/christmas-logo-2eda8a4166a8d5485d880232238f461f.png" alt="">
-        </a>
+            <a class="navbar-brand" href="#">
+                <img src="//www.pantrysbest.com/assets/christmas-logo-2eda8a4166a8d5485d880232238f461f.png" alt="">
+            </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav navbar-left">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">当前城市 <i class="caret"></i>:</a>
+                    <ul class="dropdown-menu">
+                        <!--注释-->
+                        <%  for(var i=0;i<menus.citys.length;i++){  %>
+                            <li>
+                                <a href="#">
+                                    <%= menus.citys[i] %>
+                                </a>
+                            </li>
+                            <% } %>
+
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown">产品列表 <i class="caret"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">圣诞精选</a></li>
+                        <li><a href="#">迪士尼系列</a></li>
+                        <li><a href="#">礼盒</a></li>
+                        <li><a href="#">蛋糕</a></li>
+                        <li><a href="#">纸杯蛋糕</a></li>
+                        <li><a href="#">派</a></li>
+                        <li><a href="#">挞</a></li>
+                        <li><a href="#">礼品卡</a></li>
+
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">寻找我们 <i class="caret"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">门店</a></li>
+                        <li><a href="#">配送须知</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">活动</li></a>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">关于  <i class="caret"></i> </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">会员</a></li>
+                            <li><a href="#">我们</a></li>
+                            <li><a href="#">礼品卡</a></li>
+                        </ul>
+                    </li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">登录</a></li>
+                <li><a href="#">注册</a></li>
+                <li><a href="#"><i class="fa fa-shopping-cart"></i>购物车</a></li>
+
+
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
     </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse navbar-ex1-collapse">
-        <ul class="nav navbar-nav navbar-left">
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">当前城市 <i class="caret"></i>:</a>
-                <ul class="dropdown-menu">
-                    <!--注释-->
-
-                    <%  for(var i=0;i<menus.citys.length;i++){  %>
-                        <li>
-                            <a href="#">
-                                <%= menus.citys[i] %>
-                            </a>
-                        </li>
-                        <% } %>
-
-                </ul>
-            </li>
-
-            <li><a href="#">Link</a></li>
-        </ul>
-        <form class="navbar-form navbar-left" role="search">
-            <div class="form-group">
-                <input type="text" class="form-control" placeholder="Search">
-            </div>
-            <button type="submit" class="btn btn-default">Submit</button>
-        </form>
-        <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Link</a></li>
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-
-            </li>
-        </ul>
-    </div>
-    <!-- /.navbar-collapse -->
 </nav>
