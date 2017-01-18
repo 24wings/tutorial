@@ -2,6 +2,7 @@ import * as express from 'express';
 import * as bodyParser from 'body-parser';
 import * as ejs from 'ejs';
 import  router from './app.routes';
+import adminRouter from './admin.routes';
 var app =express();
 
 
@@ -24,7 +25,7 @@ app.engine('.html',ejs.renderFile);
 app.use(express.static(__dirname+'/public'));
 // 对于任何请求渲染index页面
 app.use('/',router);
-
+app.use('/admin',adminRouter)
 
 
 
