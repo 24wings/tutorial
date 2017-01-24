@@ -54,5 +54,8 @@
 
 
 
-## 测试
-当安装完了就可以测试一下
+## 课后习题
+* 用vscode 创建 d:/workspace/html  下的index.html文件
+* 并用!+tab建写一个hello world 页面。 打乱hello world之间的空格,并使用ctrl+s保存查看是否会自动化格式化代码。
+* 使用view in browser 来查看hello world页面
+
