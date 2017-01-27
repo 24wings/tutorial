@@ -16,6 +16,6 @@
 
  ## HTML篇
 
-* [1.web前端简介](html/1.summar.md)
-* [2.html_summary.md](html/2.html_summary.md)
-* [3.html 标签](html/3.html_tags.md)
+* [1.web前端简介](html/1.summar.md)  [1.vscode基本使用 视频地址](http://pan.baidu.com/s/1nvNjY9z)
+* [2.html_summary.md](html/2.html_summary.md)  [2.html基本结构  视频地址](http://pan.baidu.com/s/1skGFTRv)
+* [3.html 标签](html/3.html_tags.md)   [3.html标签01_格式化标签 视频地址](http://pan.baidu.com/s/1pLfg6JD)   [3.html 标签02超链接图像标签](http://pan.baidu.com/s/1c1Q9SmG)
