@@ -23,4 +23,4 @@
 
 
 ## CSS篇
-* [1.css选择器](css/1.css选择器.md)
+* [1.css选择器](css/1.css选择器.md) [视频地址](http://pan.baidu.com/s/1gf2xKHl)
