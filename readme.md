@@ -22,6 +22,8 @@
 * [4.服务器请求模型,浏览器快捷键](http://pan.baidu.com/s/1i5Fk9F3)  [4.2块级元素和行内元素的区别](http://pan.baidu.com/s/1dEFc5kH)
 
 
+## CSS篇
+* [1.css选择器和权重](css/1.css选择器和权重.md)
 
 ## 项目篇
 [京东商城项目](projects/jingdong/readme.md)
