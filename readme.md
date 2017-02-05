@@ -24,6 +24,8 @@
 
 ## CSS篇
 * [1.css选择器和权重](css/1.css选择器和权重.md)
-
+* [2.盒模型](css/2.盒模型.md)
+* [3.定位.md](css/3.定位.md)
+* [3.京东商城导航栏.md](css/3.京东商城导航栏.md)
 ## 项目篇
 [京东商城项目](projects/jingdong/readme.md)
