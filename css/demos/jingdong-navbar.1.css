@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.topheader {
+    height: 30px;
+    background: #e3e4e5;
+    color: #999;
+}
+
+.topheader .header-content {
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 100%;
+    background: green;
+}
