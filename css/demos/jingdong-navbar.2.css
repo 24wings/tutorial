@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.topheader {
+    height: 30px;
+    background: #e3e4e5;
+    color: #999;
+}
+
+.topheader .header-content {
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 100%;
+}
+
+.leftMenu {
+    margin-left: 200px;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+
+.rightMenu {
+    float: right;
+    height: 100%;
+}
+
+.menuItem {
+    line-height: 30px;
+    display: inline-block;
+}
+
+.serviceMenu {
+    display: inline-block;
+}
+
+.serviceMenu .serviceMenuItem {
+    float: left;
+    font-size: 8px;
+    margin: 10px 20px;
+}
+
+
+/** 竖线*/
+
+.spacer {
+    float: left;
+    overflow: hidden;
+    margin: 11px 5px 0;
+    width: 1px;
+    height: 10px;
+    background-color: #ccc;
+}
