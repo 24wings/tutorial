@@ -65,6 +65,7 @@ body {
 
 .city dd {
     position: absolute;
+    display: none;
 }
 
 .city dd ul {
@@ -81,6 +82,7 @@ body {
 .city:hover dd,
 .city:hover {
     background: #fff;
+    display: block;
 }
 
 .city dd ul li a {
